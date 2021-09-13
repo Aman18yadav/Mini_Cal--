@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic clock</title>
+    <link href="2.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="logo">
+            <h><u>WELCOME</u></h>
+            <h1><u>CALCULATOR!!!</u></h1>
+            <hr>
+            <div class="small">
+                <p id="demo"></p>
+                <script src="1.js"></script>
+            </div>
+            <br><br><br>
+            <div class="formstyle">
+                <br>
+                    <div class="button">
+                        <div class="formstyle1">
+                            <form name="forms">
+                                <input type="text" name="answer" id="answerstyle"> <br> </br> 
+                                <input type="button" value="1" onclick="form.answer.value += '1' ">
+                                <input type="button" value="2" onclick="form.answer.value += '2' ">
+                                <input type="button" value="3" onclick="form.answer.value += '3' ">
+                                <input type="button" value="+" onclick="form.answer.value += '+' ">
+                                <br></br>
+                    
+                                <input type="button" value="4" onclick="form.answer.value += '4' ">
+                                <input type="button" value="5" onclick="form.answer.value += '5' ">
+                                <input type="button" value="6" onclick="form.answer.value += '6' ">
+                                <input type="button" value="-" onclick="form.answer.value += '-' ">
+                                <br> </br>
+                    
+                                <input type="button" value="7" onclick="form.answer.value += '7' ">
+                                <input type="button" value="8" onclick="form.answer.value += '8' ">
+                                <input type="button" value="9" onclick="form.answer.value += '9' ">
+                                <input type="button" value="*" onclick="form.answer.value += '*' ">
+                                <br> </br>
+                    
+                                <input type="button" value="0" onclick="form.answer.value += '0' ">
+                                <input type="button" value="00" onclick="form.answer.value += '00' ">
+                                <input type="button" value="." onclick="form.answer.value += '.' ">
+                                <input type="button" value="/" onclick="form.answer.value += '/' ">
+                                <br></br>
+                        
+                                <input type="button" value="(" onclick="form.answer.value += '(' ">
+                                <input type="button" value=")" onclick="form.answer.value += ')' ">
+                                <input type="button" value="=" onclick="form.answer.value= eval(form.answer.value)">
+                                <input type="button" value="clear" onclick="form.answer.value =' '  " id="clear">
+                                
+                    
+                                <br> </br>
+                                <button class="weight"><a href="weight.html">weight converter</a></button>
+                                <br></br>
+                                <button class="speed"><a href="length.html">length converter</a></button>
+                                <br></br>
+                                <button class="temperature"><a href="temperature.html">temperature converter</a></button>
+                              
+                            </form>
+                        </div> <br>
+                        <button class="back"><a href="index.html">Go_Back</a></button>
+                    </div>
+                  
+            </div>
+            <br>
+            
+        </div>
+    </div>
+</body>
+</html>
